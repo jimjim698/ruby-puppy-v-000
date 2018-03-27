@@ -7,7 +7,7 @@ def initialize(name)
   @@all<< self
 end
 
-def self.all 
+def self.all
   @@all.each do |name|
     puts name
   end
